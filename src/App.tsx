@@ -1,14 +1,14 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
-import DashboardLayout from './DashBoardLayout';
+import DashboardLayout from './layouts/DashBoardLayout';
 
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Users from './Users';
-import UserPage from './UserPage';
-import SearchPage from './SearchPage';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Users from './pages/Users';
+import UserPage from './pages/UserPage';
+import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
