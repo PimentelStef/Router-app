@@ -182,3 +182,19 @@
     border-right-color: var(--border);
   }
 }
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a.active {
+  color: red;
+  font-weight: bold;
+}
